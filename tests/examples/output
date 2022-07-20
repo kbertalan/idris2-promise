@@ -1,0 +1,21 @@
+1/1: Building Examples (Examples.idr)
+Success: Long form of success
+Success: Short form of success
+Success: Monadic success
+Failure: Long for of failure
+Failure: Short form of failure
+Success: Monadic success
+Failure: Monadic failure
+Success: Monadic failure handled
+Failure: Monadic failure shadowed
+Failure: Monadic failure
+Success: Lifted string
+Success: MonadPromise success
+Failure: MonadPromise failure
+Success: Right "MonadPromise success"
+Failure: MonadPromise failure
+Success: Left 1
+Success: Just "Monadic success"
+Failure: Monadic failure
+Success: Nothing
+Success: Monadic success

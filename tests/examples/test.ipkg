@@ -1,0 +1,7 @@
+package test
+
+depends = promise
+modules = Examples
+main = Examples
+executable = test
+opts = "--no-color --console-width 0"
