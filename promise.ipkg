@@ -1,0 +1,8 @@
+package promise
+
+modules = Promise
+
+depends = base
+
+sourcedir = "src"
+
