@@ -52,6 +52,11 @@ main = do
 
   run $ map show
       $ runEitherT { e = Int, m = Promise String IO }
+      $ liftPromise { e = String, n = IO }
+      $ succeed "Lifting a Promise to a MonadPromise"
+
+  run $ map show
+      $ runEitherT { e = Int, m = Promise String IO }
       $ resolve "MonadPromise success" { e = String, n = IO }
 
   run $ map show

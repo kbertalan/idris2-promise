@@ -94,6 +94,10 @@ export
 reject : MonadPromise e n m => e -> m a
 reject e = promise $ \_, reject' => reject' e
 
+export
+liftPromise : MonadPromise e n m => Promise e n a -> m a
+liftPromise p = promise $ \resolve', reject' => runPromise resolve' reject' p
+
 public export
 Monad n => MonadPromise e n (Promise e n) where
   promise fn = MkPromise $ \cb => fn cb.onSucceded cb.onFailed
