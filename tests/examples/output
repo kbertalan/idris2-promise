@@ -12,6 +12,7 @@ Failure: Monadic failure
 Success: Lifted string
 Success: MonadPromise success
 Failure: MonadPromise failure
+Success: Right "Lifting a Promise to a MonadPromise"
 Success: Right "MonadPromise success"
 Failure: MonadPromise failure
 Success: Left 1
