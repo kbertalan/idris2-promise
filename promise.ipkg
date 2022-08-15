@@ -6,3 +6,5 @@ depends = base
 
 sourcedir = "src"
 
+brief = "Promise for Idris2"
+
