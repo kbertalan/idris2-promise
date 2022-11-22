@@ -1,4 +1,5 @@
 1/1: Building Examples (Examples.idr)
+Now compiling the executable: test
 Success: Long form of success
 Success: Short form of success
 Success: Monadic success
